@@ -17,7 +17,7 @@ data = [
 
 # 路由 (装饰器)
 @app.route('/data/query')
-def get():
+async def get():
     
     result = data
     return result
